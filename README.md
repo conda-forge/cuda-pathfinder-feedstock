@@ -13,7 +13,7 @@ Development: https://github.com/NVIDIA/cuda-python/tree/main/cuda_pathfinder
 
 Documentation: https://nvidia.github.io/cuda-python/latest/
 
-This is a placeholder.
+Public API for loading NVIDIA Dynamic Libraries
 
 Current build status
 ====================
@@ -149,6 +149,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@bdice](https://github.com/bdice/)
 * [@kkraus14](https://github.com/kkraus14/)
 * [@leofang](https://github.com/leofang/)
 * [@oleksandr-pavlyk](https://github.com/oleksandr-pavlyk/)
