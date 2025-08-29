@@ -34,15 +34,13 @@ tests:
       python_version: ${{ python_min }}.*
 
 about:
-  # TODO: update the url once the docs is up
-  homepage: https://nvidia.github.io/cuda-python/latest/
+  homepage: https://nvidia.github.io/cuda-python/cuda-pathfinder/latest/
   summary: 'cuda.pathfinder: Utilities for locating CUDA components in a Python virtual environment'
   description: |
     Public API for loading NVIDIA Dynamic Libraries
   license: Apache-2.0
   license_file: cuda_pathfinder/LICENSE
-  # TODO: update the url once the docs is up
-  documentation: https://nvidia.github.io/cuda-python/latest/
+  documentation: https://nvidia.github.io/cuda-python/cuda-pathfinder/latest/index.html
   repository: https://github.com/NVIDIA/cuda-python/tree/main/cuda_pathfinder
 
 extra:
