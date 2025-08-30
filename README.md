@@ -3,7 +3,7 @@ About cuda-pathfinder-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cuda-pathfinder-feedstock/blob/main/LICENSE.txt)
 
-Home: https://nvidia.github.io/cuda-python/latest/
+Home: https://nvidia.github.io/cuda-python/cuda-pathfinder/latest/
 
 Package license: Apache-2.0
 
@@ -11,7 +11,7 @@ Summary: cuda.pathfinder: Utilities for locating CUDA components in a Python vir
 
 Development: https://github.com/NVIDIA/cuda-python/tree/main/cuda_pathfinder
 
-Documentation: https://nvidia.github.io/cuda-python/latest/
+Documentation: https://nvidia.github.io/cuda-python/cuda-pathfinder/latest/
 
 Public API for loading NVIDIA Dynamic Libraries
 
