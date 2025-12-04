@@ -1,8 +1,8 @@
 context:
   name: cuda-pathfinder
   version: "1.3.3"
-  # no-arch packages can't use selectors, so we avoid using the "match(python, "<3.9")" selector this way
-  python_min: "3.9"
+  # no-arch packages can't use selectors, so we avoid using the "match(python, "<3.10")" selector this way
+  python_min: "3.10"
 
 package:
   name: ${{ name|lower }}
@@ -24,7 +24,7 @@ requirements:
     - setuptools
   run:
     - python >=${{ python_min }}
-    - cuda-version >=11.0,<14
+    - cuda-version >=12.0,<14
 
 tests:
   - python:
