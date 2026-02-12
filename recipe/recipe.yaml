@@ -18,7 +18,7 @@ build:
     - cd cuda_pathfinder
     # Release archives do not contain .git metadata; provide the exact version
     # so setuptools-scm can still generate cuda/pathfinder/_version.py.
-    - SETUPTOOLS_SCM_PRETEND_VERSION_FOR_CUDA_PATHFINDER=${{ version }} python -m pip install . -vv --no-build-isolation --no-deps
+    - SETUPTOOLS_SCM_PRETEND_VERSION_FOR_CUDA_PATHFINDER=${{ version }} python -m pip install . -vv
   number: 0
 
 requirements:
