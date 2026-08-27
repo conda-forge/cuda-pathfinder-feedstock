@@ -1,6 +1,6 @@
 context:
   name: cuda-pathfinder
-  version: "1.7.0"
+  version: "1.8.0"
   # no-arch packages can't use selectors, so we avoid using the "match(python, "<3.10")" selector this way
   python_min: "3.10"
 
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/NVIDIA/cuda-python/releases/download/${{ name }}-v${{ version }}/cuda-python-${{ name }}-v${{ version }}.tar.gz
-  sha256: 12d3a7d44aee9487dc1130e49e0fed2b3c9d863273dbf13623a0a6f33e98f35c
+  sha256: 7d00e7e59fac16b8b6555ca91fd8b5d31b6ef45e90b4ba8caa653f5e22745699
 
 build:
   noarch: python
